@@ -53,12 +53,26 @@ public class Person {
 
 
   ///////// added by me //////////////
-  public Person get() {
-    //return a copy??
-
+  public String getName() {
+    String n = name;
+    return n; 
   }
 
-  public void set() {
+  public int getAge() {
+    int a = age;
+    return a; 
+  }
+  public double getSalary() {
+    double s = salary;
+    return s;
+  }
+
+  public String getSsn() {
+    String ss = ssn;
+    return ss; 
+  }
+
+  public void setSalary() {
 
   }
 
