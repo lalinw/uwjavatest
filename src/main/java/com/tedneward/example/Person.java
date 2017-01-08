@@ -47,6 +47,76 @@ public class Person {
     return "{{FIXME}}";
   }
 
+  
+
+
+
+
+  ///////// added by me //////////////
+  public Person get() {
+    //return a copy??
+
+  }
+
+  public void set() {
+
+  }
+
+  public void setAge(int newAge) {
+    if (newAge < 0) {
+      throw new IllegalArgumentExcecption() //when passed value < 0  
+    } else {
+      age = newAge; //access global private variable??
+    }
+  }
+
+  public void setName(String newName) {
+    if (newName == null) {
+      throw new IllegalArgumentExcecption(); //when passed a null string  
+    } else {
+      name = newName; 
+    }
+  }
+
+  public int count() {
+
+  }
+
+  public boolean equals(Person a, Person b) {
+    if (a.name == b.name && a.age == b.age) {
+      return true; 
+    } else {
+      return false;
+    }
+  }
+
+  **public nested class AgeComparator() {}
+  **make person comparable() {
+    by salary, in descending order
+  }
+
+  public static List<Person> getNewardFamily() {
+    List<Person> newardFam = new ArrayList<Person>(); 
+
+    //Ted, age 41, salary 250000; 
+    //Charlotte, age 43, salary 150000; 
+    //Michael, age 22, salary 10000;
+    //Matthew, age 15, salary 0.
+    newardFam.add(new Person("Ted", 41, 250000.00));
+    newardFam.add(new Person("Charlotte", 43, 150000.00));
+    newardFam.add(new Person("Michael", 22, 10000.00));
+    newardFam.add(new Person("Matthew", 15, 0.00));
+    
+    return newardFam;
+  }
+
+
+  ////////////////////////////////////
+
+
+
+
+
   // PropertyChangeListener support; you shouldn't need to change any of
   // these two methods or the field
   //
