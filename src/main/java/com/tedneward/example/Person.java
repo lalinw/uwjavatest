@@ -9,7 +9,10 @@ public class Person {
   private double salary;
   private String ssn;
   private boolean propertyChangeFired = false;
-  
+
+  private static int instances; 
+
+
   public Person() {
     this("", 0, 0.0d);
   }
@@ -18,6 +21,7 @@ public class Person {
     name = n;
     age = a;
     salary = s;
+    instances++;
   }
 
   public void setSSN(String value) {
@@ -43,84 +47,85 @@ public class Person {
     return age + 10;
   }
   
-  public String tostring() {
-    return "{{FIXME}}";
+  //OVERRIDE?! method name
+  @Override
+  public String toString() {
+    String readable = "[Name: " + name + ", Age: " + age + ", Salary: " + salary + "]";
+    return readable;
   }
-
-  
-
 
 
 
   ///////// added by me //////////////
   public String getName() {
-    String n = name;
-    return n; 
+    return this.name;
   }
 
   public int getAge() {
-    int a = age;
-    return a; 
+    return this.age;
   }
   public double getSalary() {
-    double s = salary;
-    return s;
+    return this.salary;
   }
 
   public String getSsn() {
-    String ss = ssn;
-    return ss; 
+    return this.ssn;
   }
 
-  public void setSalary() {
-
+  public void setSalary(double newSalary) {
+    if (newSalary < 0.00) {
+      throw new IllegalArgumentExcecption();
+      //?? would not make sense if salary is negative???  
+    } else {
+      this.salary = newSalary; //global private variable
+    }
   }
 
   public void setAge(int newAge) {
     if (newAge < 0) {
-      throw new IllegalArgumentExcecption() //when passed value < 0  
+      throw new IllegalArgumentExcecption("Age must be more than 0.") //when passed value < 0
     } else {
-      age = newAge; //access global private variable??
+      this.age = newAge;
     }
   }
 
   public void setName(String newName) {
     if (newName == null) {
-      throw new IllegalArgumentExcecption(); //when passed a null string  
+      throw new IllegalArgumentExcecption("Name cannot be null."); //when passed a null string
     } else {
-      name = newName; 
+      this.name = newName;
     }
   }
 
+  //counts static global field
   public int count() {
-
+    return instances; 
   }
 
   public boolean equals(Person a, Person b) {
-    if (a.name == b.name && a.age == b.age) {
+    if (a.name.equals(b.name) && a.age == b.age) {
       return true; 
     } else {
       return false;
     }
   }
 
-  **public nested class AgeComparator() {}
+  //nested class, Peron's field must remain private
+  private class AgeComparator() {}
   **make person comparable() {
     by salary, in descending order
   }
 
-  public static List<Person> getNewardFamily() {
-    List<Person> newardFam = new ArrayList<Person>(); 
+  public static List<Person> newardFam = new ArrayList<Person>();
+    static {
+      //Ted, age 41, salary 250000; Charlotte, age 43, salary 150000; Michael, age 22, salary 10000; Matthew, age 15, salary 0.
+      newardFam.add(new Person("Ted", 41, 250000.00));
+      newardFam.add(new Person("Charlotte", 43, 150000.00));
+      newardFam.add(new Person("Michael", 22, 10000.00));
+      newardFam.add(new Person("Matthew", 15, 0.00));
+    }
 
-    //Ted, age 41, salary 250000; 
-    //Charlotte, age 43, salary 150000; 
-    //Michael, age 22, salary 10000;
-    //Matthew, age 15, salary 0.
-    newardFam.add(new Person("Ted", 41, 250000.00));
-    newardFam.add(new Person("Charlotte", 43, 150000.00));
-    newardFam.add(new Person("Michael", 22, 10000.00));
-    newardFam.add(new Person("Matthew", 15, 0.00));
-    
+  public static List<Person> getNewardFamily() {
     return newardFam;
   }
 
