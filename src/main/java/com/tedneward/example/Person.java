@@ -3,7 +3,7 @@ package com.tedneward.example;
 import java.beans.*;
 import java.util.*;
 
-public class Person implements Comparable<Person>, Comparator<Person> {
+public class Person implements Comparable<Person> {
   private int age;
   private String name;
   private double salary;
@@ -132,11 +132,14 @@ public class Person implements Comparable<Person>, Comparator<Person> {
     }
   }
 
-  public int compare(Person a, Person b) {
-    //comparator
-    //ascending order by age
-    return a.age - b.age;
+  public class AgeComparator implements Comparator<Person> {
+    public int compare(Person a, Person b) {
+      //comparator
+      //ascending order by age
+      return a.getAge() - b.getAge();
+    }
   }
+
   ////////////////////////////////////
 
 
@@ -151,3 +154,4 @@ public class Person implements Comparable<Person>, Comparator<Person> {
       this.pcs.removePropertyChangeListener(listener);
   }
 }
+
