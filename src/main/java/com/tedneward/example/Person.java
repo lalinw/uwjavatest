@@ -3,7 +3,7 @@ package com.tedneward.example;
 import java.beans.*;
 import java.util.*;
 
-public class Person implements Comparable<Person> {
+public class Person implements Comparable<Person>, Comparator<Person> {
   private int age;
   private String name;
   private double salary;
@@ -131,7 +131,7 @@ public class Person implements Comparable<Person> {
 
   public int compareTo(Person x) {
     //descending order by salary
-    double diff = this.salary - x.getSalary();
+    double diff = this.salary - x.salary;
     if (diff > 1.00) {
       return -1;
     } else if (diff < 1.00) {
@@ -139,6 +139,12 @@ public class Person implements Comparable<Person> {
     } else {
       return 0;
     }
+  }
+
+  public int compare(Person a, Person b) {
+    //comparator
+    //ascending order by age
+    return a.age - b.age;
   }
 
   ////////////////////////////////////
