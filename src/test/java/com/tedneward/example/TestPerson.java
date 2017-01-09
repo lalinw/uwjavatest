@@ -68,8 +68,12 @@ public class TestPerson {
   @Test
   public void useAgeComparator() {
     List<Person> people = Person.getNewardFamily();
+    System.out.println(people.get(0).toString());
     Collections.sort(people, new Person.AgeComparator());
-    
+//      String aaa = people.get(0).toString();
+//      String bbb = people.get(1).toString();
+//      String ccc = people.get(2).toString();
+
     assertEquals(new Person("Matthew", 15, 0), people.get(0));
     assertEquals(new Person("Michael", 22, 10000), people.get(1));
     assertEquals(new Person("Ted", 41, 250000), people.get(2));
@@ -80,6 +84,9 @@ public class TestPerson {
   public void useNaturalComparison() {
     List<Person> people = Person.getNewardFamily();
     Collections.sort(people);
+//      String aaa = people.get(0).toString();
+//      String bbb = people.get(1).toString();
+//      String ccc = people.get(2).toString();
     
     assertEquals(new Person("Ted", 41, 250000), people.get(0));
     assertEquals(new Person("Charlotte", 43, 150000), people.get(1));
@@ -94,27 +101,21 @@ public class TestPerson {
     // ============ YOUR CHANGES BEGIN HERE
     // Call addPropertyChangeListener with a PropertyChangedListener
     // that has the following code in it:
-
-    PropertyChangeListener listener = new PropertyChangeListener(){
-
-      public void propertyChange(PropertyChangeEvent pce) {
-        assertEquals("ssn", pce.getPropertyName());
-        assertEquals("", pce.getOldValue());
-        assertEquals("012-34-5678", pce.getNewValue());
-      }
-    };
-//    ted.addPropertyChangeListener("ssn", listener);
-//      public void propertyChange(PropertyChangeEvent pce){
+//    PropertyChangeSupport pcs = new PropertyChangeSupport(this);
 //
-//      }
+//    public void addPropertyChangeListener(PropertyChangeListener listener) {
+//      this.pcs.addPropertyChangeListener(listener);
+//    }
 
+    PropertyChangeListener listener = new PropertyChangeListener() {
+        public void propertyChange(PropertyChangeEvent pce) {
+            assertEquals("ssn", pce.getPropertyName());
+            assertEquals("", pce.getOldValue());
+            assertEquals("012-34-5678", pce.getNewValue());
+        }
+    };
 
-
-    /* //old code
-    assertEquals("ssn", pce.getPropertyName());
-    assertEquals("", pce.getOldValue());
-    assertEquals("012-34-5678", pce.getNewValue());
-    */
+    ted.addPropertyChangeListener(listener); // ????????????
 
     // ============ YOUR CHANGES END HERE
 

@@ -50,7 +50,7 @@ public class Person implements Comparable<Person> {
   @Override
   public String toString() {
     //sample => [Person name:Fird Birfle age:20 salary:195750.22]
-    String readable = "[Person name:" + name + " age:" + age + " aalary:" + salary + "]";
+    String readable = "[Person name:" + name + " age:" + age + " salary:" + salary + "]";
     return readable;
   }
 
@@ -101,6 +101,8 @@ public class Person implements Comparable<Person> {
   }
 
   public boolean equals(Person a, Person b) {
+    System.out.println(a.age);
+    System.out.println(b.age);
     if (a.name.equals(b.name) && a.age == b.age) {
       return true; 
     } else {
@@ -121,19 +123,21 @@ public class Person implements Comparable<Person> {
     return newardFam;
   }
 
+  @Override
   public int compareTo(Person x) {
     //descending order by salary
     double diff = this.salary - x.salary;
-    if (diff > 1.00) {
+    System.out.println(diff);
+    if (diff > 0.00) {
       return -1;
-    } else if (diff < 1.00) {
+    } else if (diff < 0.00) {
       return 1;
     } else {
       return 0;
     }
   }
 
-  public class AgeComparator implements Comparator<Person> {
+  public static class AgeComparator implements Comparator<Person> {
     public int compare(Person a, Person b) {
       //comparator
       //ascending order by age
