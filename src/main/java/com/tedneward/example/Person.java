@@ -74,7 +74,7 @@ public class Person implements Comparable<Person>, Comparator<Person> {
 
   public void setSalary(double newSalary) {
     if (newSalary < 0.00) {
-      throw new IllegalArgumentExcecption();
+      throw new IllegalArgumentException();
       //?? would not make sense if salary is negative???  
     } else {
       this.salary = newSalary; //global private variable
@@ -83,7 +83,7 @@ public class Person implements Comparable<Person>, Comparator<Person> {
 
   public void setAge(int newAge) {
     if (newAge < 0) {
-      throw new IllegalArgumentExcecption("Age must be more than 0.") //when passed value < 0
+      throw new IllegalArgumentException("Age must be more than 0."); //when passed value < 0
     } else {
       this.age = newAge;
     }
@@ -91,7 +91,7 @@ public class Person implements Comparable<Person>, Comparator<Person> {
 
   public void setName(String newName) {
     if (newName == null) {
-      throw new IllegalArgumentExcecption("Name cannot be null."); //when passed a null string
+      throw new IllegalArgumentException("Name cannot be null."); //when passed a null string
     } else {
       this.name = newName;
     }
@@ -108,12 +108,6 @@ public class Person implements Comparable<Person>, Comparator<Person> {
     } else {
       return false;
     }
-  }
-
-  //nested class, Peron's field must remain private
-  private class AgeComparator() {}
-  **make person comparable() {
-    by salary, in descending order
   }
 
   public static List<Person> newardFam = new ArrayList<Person>();
