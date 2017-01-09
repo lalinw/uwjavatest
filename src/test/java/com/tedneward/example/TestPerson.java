@@ -96,7 +96,7 @@ public class TestPerson {
     // that has the following code in it:
 
     PropertyChangeListener listener = new PropertyChangeListener(){
-      @Override
+
       public void propertyChange(PropertyChangeEvent pce) {
         assertEquals("ssn", pce.getPropertyName());
         assertEquals("", pce.getOldValue());
@@ -117,7 +117,7 @@ public class TestPerson {
     */
 
     // ============ YOUR CHANGES END HERE
-    
+
     assertEquals(false, ted.getPropertyChangeFired());
     ted.setSSN("012-34-5678");
     assertEquals(true, ted.getPropertyChangeFired());

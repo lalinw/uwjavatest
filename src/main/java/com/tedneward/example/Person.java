@@ -49,7 +49,8 @@ public class Person implements Comparable<Person> {
   //OVERRIDE?! method name
   @Override
   public String toString() {
-    String readable = "[Name: " + name + ", Age: " + age + ", Salary: " + salary + "]";
+    //sample => [Person name:Fird Birfle age:20 salary:195750.22]
+    String readable = "[Person name:" + name + " age:" + age + " aalary:" + salary + "]";
     return readable;
   }
 
