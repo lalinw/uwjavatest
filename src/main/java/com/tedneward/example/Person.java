@@ -136,7 +136,7 @@ public class Person implements Comparable<Person> {
     public int compare(Person a, Person b) {
       //comparator
       //ascending order by age
-      return a.getAge() - b.getAge();
+      return a.age - b.age;
     }
   }
 
