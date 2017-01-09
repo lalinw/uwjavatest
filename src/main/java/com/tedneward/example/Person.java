@@ -9,9 +9,7 @@ public class Person implements Comparable<Person>, Comparator<Person> {
   private double salary;
   private String ssn;
   private boolean propertyChangeFired = false;
-
-  private static int instances; 
-
+  private static int instances;
 
   public Person() {
     this("", 0, 0.0d);
@@ -31,12 +29,13 @@ public class Person implements Comparable<Person>, Comparator<Person> {
     this.pcs.firePropertyChange("ssn", old, value);
     propertyChangeFired = true;
   }
+
   public boolean getPropertyChangeFired() {
-    return propertyChangeFired;
+      return propertyChangeFired;
   }
 
   public double calculateBonus() {
-    return salary * 1.10;
+      return salary * 1.10;
   }
   
   public String becomeJudge() {
@@ -46,15 +45,13 @@ public class Person implements Comparable<Person>, Comparator<Person> {
   public int timeWarp() {
     return age + 10;
   }
-  
+
   //OVERRIDE?! method name
   @Override
   public String toString() {
     String readable = "[Name: " + name + ", Age: " + age + ", Salary: " + salary + "]";
     return readable;
   }
-
-
 
   ///////// added by me //////////////
   public String getName() {
@@ -140,11 +137,7 @@ public class Person implements Comparable<Person>, Comparator<Person> {
     //ascending order by age
     return a.age - b.age;
   }
-
   ////////////////////////////////////
-
-
-
 
 
   // PropertyChangeListener support; you shouldn't need to change any of
