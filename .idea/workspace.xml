@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3392b5b-72ca-41c9-95ae-7be3d4a216c2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/uwjavatest/com/tedneward/example/Person.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
@@ -14,25 +15,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/uwjavatest/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/out/production/uwjavatest/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/uwjavatest/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/out/production/uwjavatest/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/uwjavatest/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/out/production/uwjavatest/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/uwjavatest/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/out/production/uwjavatest/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/uwjavatest/build/libs/uwjavatest.jar" afterPath="$PROJECT_DIR$/out/production/uwjavatest/build/libs/uwjavatest.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/uwjavatest/build/test-results/test/binary/output.bin" afterPath="$PROJECT_DIR$/out/production/uwjavatest/build/test-results/test/binary/output.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/uwjavatest/build/test-results/test/binary/output.bin.idx" afterPath="$PROJECT_DIR$/out/production/uwjavatest/build/test-results/test/binary/output.bin.idx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/uwjavatest/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/out/production/uwjavatest/build/test-results/test/binary/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/uwjavatest/com/tedneward/example/TestPerson.class" afterPath="$PROJECT_DIR$/out/production/uwjavatest/com/tedneward/example/TestPerson.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.tedneward.example.TestPerson.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.tedneward.example.TestPerson.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.tedneward.example.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.tedneward.example.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.tedneward.example.TestPerson.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.tedneward.example.TestPerson.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/uwjavatest/build/reports/tests/test/classes/com.tedneward.example.TestPerson.html" afterPath="$PROJECT_DIR$/out/production/uwjavatest/build/reports/tests/test/classes/com.tedneward.example.TestPerson.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/uwjavatest/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/out/production/uwjavatest/build/reports/tests/test/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/uwjavatest/build/reports/tests/test/packages/com.tedneward.example.html" afterPath="$PROJECT_DIR$/out/production/uwjavatest/build/reports/tests/test/packages/com.tedneward.example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/uwjavatest/build/test-results/test/TEST-com.tedneward.example.TestPerson.xml" afterPath="$PROJECT_DIR$/out/production/uwjavatest/build/test-results/test/TEST-com.tedneward.example.TestPerson.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tedneward/example/Person.java" afterPath="$PROJECT_DIR$/src/main/java/com/tedneward/example/Person.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/tedneward/example/TestPerson.java" afterPath="$PROJECT_DIR$/src/test/java/com/tedneward/example/TestPerson.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,13 +47,10 @@
       <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tedneward/example/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="140" column="27" lean-forward="true" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
+            <state relative-caret-position="-20">
+              <caret line="142" column="3" lean-forward="false" selection-start-line="142" selection-start-column="3" selection-end-line="142" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2130#2131#0" expanded="true" />
-                <element signature="e#2157#2158#0" expanded="true" />
-                <element signature="e#2412#2420#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +59,8 @@
       <file leaf-file-name="TestPerson.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/tedneward/example/TestPerson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+            <state relative-caret-position="365">
+              <caret line="110" column="44" lean-forward="true" selection-start-line="110" selection-start-column="44" selection-end-line="110" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +71,8 @@
       <file leaf-file-name="SampleCode-MayNotCompile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SampleCode-MayNotCompile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="50" column="9" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="50" selection-end-column="9" />
+            <state relative-caret-position="731">
+              <caret line="50" column="9" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="50" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -95,12 +81,9 @@
       <file leaf-file-name="Assert.class" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
+            <state relative-caret-position="663">
               <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding>
-                <element signature="e#1888#1889#0" expanded="true" />
-                <element signature="e#1934#1935#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,7 +91,7 @@
       <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
+            <state relative-caret-position="238">
               <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
@@ -118,16 +101,9 @@
       <file leaf-file-name="ParentRunner.class" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="3179">
               <caret line="240" column="0" lean-forward="false" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
-              <folding>
-                <element signature="e#2137#2138#0" expanded="true" />
-                <element signature="e#2181#2182#0" expanded="true" />
-                <element signature="e#5891#6026#0" expanded="true" />
-                <element signature="e#6025#6026#0" expanded="true" />
-                <element signature="e#6429#6593#0" expanded="true" />
-                <element signature="e#6592#6593#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,7 +111,7 @@
       <file leaf-file-name="JUnitCore.class" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="918">
               <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding />
             </state>
@@ -145,7 +121,7 @@
       <file leaf-file-name="BlockJUnit4ClassRunner.class" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
+            <state relative-caret-position="357">
               <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
@@ -155,7 +131,7 @@
       <file leaf-file-name="SynchronizedRunListener.class" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runner/notification/SynchronizedRunListener.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
+            <state relative-caret-position="680">
               <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
@@ -165,7 +141,7 @@
       <file leaf-file-name="Description.class" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runner/Description.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="1615">
               <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
               <folding>
                 <element signature="e#4338#4339#0" expanded="true" />
@@ -197,6 +173,8 @@
       <find>natural</find>
       <find>equals</find>
       <find>equal</find>
+      <find>ssn</find>
+      <find>system.out</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -239,7 +217,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -290,7 +268,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -628,16 +606,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="83" y="-8" width="1285" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23325454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -645,7 +622,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910978" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -653,9 +629,11 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910978" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -669,33 +647,27 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/tedneward/example/TestPerson.java</url>
-          <line>76</line>
+          <line>72</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/tedneward/example/TestPerson.java</url>
-          <line>90</line>
+          <line>83</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/tedneward/example/TestPerson.java</url>
-          <line>122</line>
+          <line>115</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/tedneward/example/TestPerson.java</url>
-          <line>75</line>
+          <line>71</line>
           <properties />
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/tedneward/example/TestPerson.java</url>
-          <line>88</line>
-          <properties />
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class</url>
@@ -705,7 +677,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/tedneward/example/TestPerson.java</url>
-          <line>96</line>
+          <line>89</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
@@ -730,13 +702,96 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tedneward/example/Person.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2482">
+          <caret line="146" column="22" lean-forward="false" selection-start-line="146" selection-start-column="22" selection-end-line="146" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tedneward/example/TestPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleCode-MayNotCompile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="50" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3179">
+          <caret line="240" column="0" lean-forward="false" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runner/notification/SynchronizedRunListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runner/Description.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding>
+            <element signature="e#4338#4339#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tedneward/example/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
           <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2130#2131#0" expanded="true" />
-            <element signature="e#2157#2158#0" expanded="true" />
-            <element signature="e#2412#2420#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -775,26 +830,16 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2130#2131#0" expanded="true" />
-            <element signature="e#2157#2158#0" expanded="true" />
-            <element signature="e#2412#2420#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/classes/main/com/tedneward/example/Person.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-466">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build/classes/main/com/tedneward/example/Person.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tedneward/example/AgeComparator.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -802,9 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#3622#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,7 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="497" column="0" lean-forward="false" selection-start-line="497" selection-start-column="0" selection-end-line="497" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,7 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,13 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#1343#1344#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -866,9 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#1554#1555#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -876,10 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-          <folding>
-            <element signature="e#2389#2390#0" expanded="true" />
-            <element signature="e#2439#2440#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -887,19 +910,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding>
-            <element signature="e#4061#4062#0" expanded="true" />
-            <element signature="e#4539#4540#0" expanded="true" />
-            <element signature="e#4595#4596#0" expanded="true" />
-            <element signature="e#4643#4644#0" expanded="true" />
-            <element signature="e#4707#4708#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runner/notification/SynchronizedRunListener.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
+        <state relative-caret-position="680">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
@@ -907,7 +923,7 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runner/Description.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="1615">
           <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding>
             <element signature="e#4338#4339#0" expanded="true" />
@@ -917,7 +933,7 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
+        <state relative-caret-position="238">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
@@ -925,7 +941,7 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
+        <state relative-caret-position="357">
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
@@ -933,65 +949,52 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="3179">
           <caret line="240" column="0" lean-forward="false" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
-          <folding>
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#2181#2182#0" expanded="true" />
-            <element signature="e#5891#6026#0" expanded="true" />
-            <element signature="e#6025#6026#0" expanded="true" />
-            <element signature="e#6429#6593#0" expanded="true" />
-            <element signature="e#6592#6593#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="918">
           <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleCode-MayNotCompile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="50" column="9" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="50" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tedneward/example/TestPerson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+        <state relative-caret-position="365">
+          <caret line="110" column="44" lean-forward="true" selection-start-line="110" selection-start-column="44" selection-end-line="110" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#1888#1889#0" expanded="true" />
-            <element signature="e#1934#1935#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SampleCode-MayNotCompile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="50" column="9" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="50" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tedneward/example/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="140" column="27" lean-forward="true" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
+        <state relative-caret-position="-20">
+          <caret line="142" column="3" lean-forward="false" selection-start-line="142" selection-start-column="3" selection-end-line="142" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2130#2131#0" expanded="true" />
-            <element signature="e#2157#2158#0" expanded="true" />
-            <element signature="e#2412#2420#0" expanded="true" />
           </folding>
         </state>
       </provider>

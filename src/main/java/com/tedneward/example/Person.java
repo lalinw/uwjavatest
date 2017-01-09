@@ -19,6 +19,7 @@ public class Person implements Comparable<Person> {
     name = n;
     age = a;
     salary = s;
+    ssn = "";
     instances++;
   }
 
@@ -46,7 +47,6 @@ public class Person implements Comparable<Person> {
     return age + 10;
   }
 
-  //OVERRIDE?! method name
   @Override
   public String toString() {
     //sample => [Person name:Fird Birfle age:20 salary:195750.22]
@@ -66,7 +66,7 @@ public class Person implements Comparable<Person> {
     return this.salary;
   }
 
-  public String getSsn() {
+  public String getSSN() {
     return this.ssn;
   }
 
