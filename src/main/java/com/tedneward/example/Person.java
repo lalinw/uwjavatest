@@ -100,19 +100,17 @@ public class Person implements Comparable<Person> {
     return instances; 
   }
 
-  public boolean equals(Person a, Person b) {
-    System.out.println(a.age);
-    System.out.println(b.age);
-    if (a.name.equals(b.name) && a.age == b.age) {
-      return true; 
-    } else {
-      return false;
+  @Override
+  public boolean equals(Object x) {
+    if (x instanceof Person) {
+      Person p = (Person)x;
+      return (this.name.equals(p.name) && this.age == p.age);
     }
+    return false;
   }
 
   public static List<Person> newardFam = new ArrayList<Person>();
     static {
-      //Ted, age 41, salary 250000; Charlotte, age 43, salary 150000; Michael, age 22, salary 10000; Matthew, age 15, salary 0.
       newardFam.add(new Person("Ted", 41, 250000.00));
       newardFam.add(new Person("Charlotte", 43, 150000.00));
       newardFam.add(new Person("Michael", 22, 10000.00));
@@ -127,7 +125,6 @@ public class Person implements Comparable<Person> {
   public int compareTo(Person x) {
     //descending order by salary
     double diff = this.salary - x.salary;
-    System.out.println(diff);
     if (diff > 0.00) {
       return -1;
     } else if (diff < 0.00) {
